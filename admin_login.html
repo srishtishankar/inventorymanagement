@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Login</title>
+
+	<style>
+
+	body{
+		text-align: center;
+		background: url(http://www.linketal.co.za/wp-content/uploads/2014/01/about-us-image-faded.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	img{
+		width: 200px;
+		height: 200px;
+	}
+	#content{
+		padding: 2%;
+	}
+	h1{
+		color: #2361B2;
+	}
+	#submit{
+		background-color: #2361B2;
+		width: 80px;
+		height: 40px;
+		color: white;
+	}
+	input{
+		width: 200px;
+		height: 30px;
+	}
+	#heading{
+		font-size: 50px;
+	}
+	</style>
+
+</head>
+<body>
+	<div id="content">
+		<h1 id="heading">Inventory Management System</h1>
+		<img src="profile.png">
+		<h1><b>Welcome Back</b></h1><br>
+		<form method="POST" action="admin_login.php">
+			<input type="text" name="userid" value="userid" required><br><br>
+			<input type="password" name="password" value="*******" required><br><br><br>
+  			<input type="submit" id="submit" value="Submit">
+  		</form>
+  	</div>
+</body>
+</html>
